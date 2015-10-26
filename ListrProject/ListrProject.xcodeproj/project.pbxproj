@@ -14,6 +14,12 @@
 		B642EF971BDEA2EA00CC8B89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B642EF951BDEA2EA00CC8B89 /* LaunchScreen.storyboard */; };
 		B642EFA21BDEA2EA00CC8B89 /* ListrProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642EFA11BDEA2EA00CC8B89 /* ListrProjectTests.swift */; };
 		B642EFAD1BDEA2EA00CC8B89 /* ListrProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B642EFAC1BDEA2EA00CC8B89 /* ListrProjectUITests.swift */; };
+		B642EFC01BDEA43400CC8B89 /* tshirt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBA1BDEA43400CC8B89 /* tshirt.jpg */; settings = {ASSET_TAGS = (); }; };
+		B642EFC11BDEA43400CC8B89 /* tshirt.pxm in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBB1BDEA43400CC8B89 /* tshirt.pxm */; settings = {ASSET_TAGS = (); }; };
+		B642EFC21BDEA43400CC8B89 /* tshirt@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBC1BDEA43400CC8B89 /* tshirt@2x.jpg */; settings = {ASSET_TAGS = (); }; };
+		B642EFC31BDEA43400CC8B89 /* tshirt@2x.pxm in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBD1BDEA43400CC8B89 /* tshirt@2x.pxm */; settings = {ASSET_TAGS = (); }; };
+		B642EFC41BDEA43400CC8B89 /* tshirt@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBE1BDEA43400CC8B89 /* tshirt@3x.jpg */; settings = {ASSET_TAGS = (); }; };
+		B642EFC51BDEA43400CC8B89 /* tshirt@3x.pxm in Resources */ = {isa = PBXBuildFile; fileRef = B642EFBF1BDEA43400CC8B89 /* tshirt@3x.pxm */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		B642EFA81BDEA2EA00CC8B89 /* ListrProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListrProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B642EFAC1BDEA2EA00CC8B89 /* ListrProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListrProjectUITests.swift; sourceTree = "<group>"; };
 		B642EFAE1BDEA2EA00CC8B89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B642EFBA1BDEA43400CC8B89 /* tshirt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tshirt.jpg; sourceTree = "<group>"; };
+		B642EFBB1BDEA43400CC8B89 /* tshirt.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = tshirt.pxm; sourceTree = "<group>"; };
+		B642EFBC1BDEA43400CC8B89 /* tshirt@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@2x.jpg"; sourceTree = "<group>"; };
+		B642EFBD1BDEA43400CC8B89 /* tshirt@2x.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tshirt@2x.pxm"; sourceTree = "<group>"; };
+		B642EFBE1BDEA43400CC8B89 /* tshirt@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "tshirt@3x.jpg"; sourceTree = "<group>"; };
+		B642EFBF1BDEA43400CC8B89 /* tshirt@3x.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tshirt@3x.pxm"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,12 @@
 				B642EF8E1BDEA2EA00CC8B89 /* ViewController.swift */,
 				B642EF901BDEA2EA00CC8B89 /* Main.storyboard */,
 				B642EF931BDEA2EA00CC8B89 /* Assets.xcassets */,
+				B642EFBA1BDEA43400CC8B89 /* tshirt.jpg */,
+				B642EFBB1BDEA43400CC8B89 /* tshirt.pxm */,
+				B642EFBC1BDEA43400CC8B89 /* tshirt@2x.jpg */,
+				B642EFBD1BDEA43400CC8B89 /* tshirt@2x.pxm */,
+				B642EFBE1BDEA43400CC8B89 /* tshirt@3x.jpg */,
+				B642EFBF1BDEA43400CC8B89 /* tshirt@3x.pxm */,
 				B642EF951BDEA2EA00CC8B89 /* LaunchScreen.storyboard */,
 				B642EF981BDEA2EA00CC8B89 /* Info.plist */,
 			);
@@ -228,9 +246,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B642EFC11BDEA43400CC8B89 /* tshirt.pxm in Resources */,
+				B642EFC31BDEA43400CC8B89 /* tshirt@2x.pxm in Resources */,
+				B642EFC51BDEA43400CC8B89 /* tshirt@3x.pxm in Resources */,
 				B642EF971BDEA2EA00CC8B89 /* LaunchScreen.storyboard in Resources */,
+				B642EFC21BDEA43400CC8B89 /* tshirt@2x.jpg in Resources */,
 				B642EF941BDEA2EA00CC8B89 /* Assets.xcassets in Resources */,
+				B642EFC41BDEA43400CC8B89 /* tshirt@3x.jpg in Resources */,
 				B642EF921BDEA2EA00CC8B89 /* Main.storyboard in Resources */,
+				B642EFC01BDEA43400CC8B89 /* tshirt.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
