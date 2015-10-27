@@ -1,15 +1,15 @@
 //
-//  ListrProjectTests.swift
-//  ListrProjectTests
+//  RedoOfListrDay1Tests.swift
+//  RedoOfListrDay1Tests
 //
-//  Created by Heather Connery on 2015-10-26.
+//  Created by Heather Connery on 2015-10-27.
 //  Copyright © 2015 HConnery. All rights reserved.
 //
 
 import XCTest
-@testable import ListrProject
+@testable import RedoOfListrDay1
 
-class ListrProjectTests: XCTestCase {
+class RedoOfListrDay1Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B642EF881BDEA2EA00CC8B89"
-               BuildableName = "ListrProject.app"
-               BlueprintName = "ListrProject"
-               ReferencedContainer = "container:ListrProject.xcodeproj">
+               BlueprintIdentifier = "B6E618981BDFF01000BB2931"
+               BuildableName = "RedoOfListrDay1.app"
+               BlueprintName = "RedoOfListrDay1"
+               ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B642EF9C1BDEA2EA00CC8B89"
-               BuildableName = "ListrProjectTests.xctest"
-               BlueprintName = "ListrProjectTests"
-               ReferencedContainer = "container:ListrProject.xcodeproj">
+               BlueprintIdentifier = "B6E618AC1BDFF01100BB2931"
+               BuildableName = "RedoOfListrDay1Tests.xctest"
+               BlueprintName = "RedoOfListrDay1Tests"
+               ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B642EFA71BDEA2EA00CC8B89"
-               BuildableName = "ListrProjectUITests.xctest"
-               BlueprintName = "ListrProjectUITests"
-               ReferencedContainer = "container:ListrProject.xcodeproj">
+               BlueprintIdentifier = "B6E618B71BDFF01100BB2931"
+               BuildableName = "RedoOfListrDay1UITests.xctest"
+               BlueprintName = "RedoOfListrDay1UITests"
+               ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B642EF881BDEA2EA00CC8B89"
-            BuildableName = "ListrProject.app"
-            BlueprintName = "ListrProject"
-            ReferencedContainer = "container:ListrProject.xcodeproj">
+            BlueprintIdentifier = "B6E618981BDFF01000BB2931"
+            BuildableName = "RedoOfListrDay1.app"
+            BlueprintName = "RedoOfListrDay1"
+            ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B642EF881BDEA2EA00CC8B89"
-            BuildableName = "ListrProject.app"
-            BlueprintName = "ListrProject"
-            ReferencedContainer = "container:ListrProject.xcodeproj">
+            BlueprintIdentifier = "B6E618981BDFF01000BB2931"
+            BuildableName = "RedoOfListrDay1.app"
+            BlueprintName = "RedoOfListrDay1"
+            ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B642EF881BDEA2EA00CC8B89"
-            BuildableName = "ListrProject.app"
-            BlueprintName = "ListrProject"
-            ReferencedContainer = "container:ListrProject.xcodeproj">
+            BlueprintIdentifier = "B6E618981BDFF01000BB2931"
+            BuildableName = "RedoOfListrDay1.app"
+            BlueprintName = "RedoOfListrDay1"
+            ReferencedContainer = "container:RedoOfListrDay1.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

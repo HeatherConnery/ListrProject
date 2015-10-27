@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ListrProject.xcscheme</key>
+		<key>RedoOfListrDay1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B642EF881BDEA2EA00CC8B89</key>
+		<key>B6E618981BDFF01000BB2931</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B642EF9C1BDEA2EA00CC8B89</key>
+		<key>B6E618AC1BDFF01100BB2931</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B642EFA71BDEA2EA00CC8B89</key>
+		<key>B6E618B71BDFF01100BB2931</key>
 		<dict>
 			<key>primary</key>
 			<true/>
