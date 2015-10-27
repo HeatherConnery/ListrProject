@@ -14,6 +14,7 @@
 		B6E618A71BDFF01000BB2931 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6E618A51BDFF01000BB2931 /* LaunchScreen.storyboard */; };
 		B6E618B21BDFF01100BB2931 /* RedoOfListrDay1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E618B11BDFF01100BB2931 /* RedoOfListrDay1Tests.swift */; };
 		B6E618BD1BDFF01100BB2931 /* RedoOfListrDay1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E618BC1BDFF01100BB2931 /* RedoOfListrDay1UITests.swift */; };
+		B6E618CB1BE0039200BB2931 /* ListrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6E618CA1BE0039200BB2931 /* ListrViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B6E618B81BDFF01100BB2931 /* RedoOfListrDay1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedoOfListrDay1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6E618BC1BDFF01100BB2931 /* RedoOfListrDay1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedoOfListrDay1UITests.swift; sourceTree = "<group>"; };
 		B6E618BE1BDFF01100BB2931 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6E618CA1BE0039200BB2931 /* ListrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListrViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				B6E6189C1BDFF01000BB2931 /* AppDelegate.swift */,
+				B6E618CA1BE0039200BB2931 /* ListrViewController.swift */,
 				B6E6189E1BDFF01000BB2931 /* ViewController.swift */,
 				B6E618A01BDFF01000BB2931 /* Main.storyboard */,
 				B6E618A31BDFF01000BB2931 /* Assets.xcassets */,
@@ -257,6 +260,7 @@
 			files = (
 				B6E6189F1BDFF01000BB2931 /* ViewController.swift in Sources */,
 				B6E6189D1BDFF01000BB2931 /* AppDelegate.swift in Sources */,
+				B6E618CB1BE0039200BB2931 /* ListrViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +487,7 @@
 				B6E618C31BDFF01100BB2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E618C41BDFF01100BB2931 /* Build configuration list for PBXNativeTarget "RedoOfListrDay1Tests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +496,7 @@
 				B6E618C61BDFF01100BB2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6E618C71BDFF01100BB2931 /* Build configuration list for PBXNativeTarget "RedoOfListrDay1UITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +505,7 @@
 				B6E618C91BDFF01100BB2931 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
