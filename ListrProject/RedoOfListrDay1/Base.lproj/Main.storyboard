@@ -32,7 +32,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="BYZ-38-t0r" kind="presentation" identifier="presentation" id="8AQ-nH-pYk"/>
+                                            <segue destination="BYZ-38-t0r" kind="show" identifier="presentation" id="8AQ-nH-pYk"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

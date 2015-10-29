@@ -10,24 +10,27 @@ import UIKit
 
 class ListrViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    
     // simple data model for stage 2:
-    var myFavoriteGames = ["Super Meat Boy","Doom","Super Mario Bros",
-        "F Zero", "Grand Theft Auto","Donkey Kong Tropical Freeze" ]
+    var myWalleCharacters = ["Eve","Wall-E","Wall-E's lunch box",
+        "Navigator", "Plant!","Clean-Up Bot" ]
     
     var arrayOfImages = ["eve.png","Wall-E.png","lunchBox.png","navigator.png","plant.png","cleanUpBot.png"]
+    var arrayOfDescriptions = ["This is Eve","This is Wall-E","This is Wall-E's lunch box","This is the ship's navigator","This is the plant","This is the clean-up bot"]
 
     
     @IBOutlet weak var listrTableViewOutlet: UITableView!
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return myFavoriteGames.count
+        return myWalleCharacters.count
     }
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         // Configure the cell...
-        cell.textLabel?.text = myFavoriteGames[indexPath.row]
+  
+        cell.textLabel?.text = myWalleCharacters[indexPath.row]
 //        cell.imageView?.image = UIImage(named: "tshirt.jpg")
         cell.imageView?.image = UIImage(named: arrayOfImages[indexPath.row])
         return cell
@@ -44,6 +47,8 @@ class ListrViewController: UIViewController, UITableViewDelegate, UITableViewDat
 //        
 //        presentViewController(alertController, animated: true)
 //    }
+        
+        
 //    
     
     }
@@ -70,17 +75,16 @@ class ListrViewController: UIViewController, UITableViewDelegate, UITableViewDat
         if segue.identifier == "presentation"
         {
             if let destinationVC = segue.destinationViewController as? ViewController {
-                // Do something cool. Like pass data from one view controller to another.
-                //print("Let's do something cool")
+                if let cellSelected = self.listrTableViewOutlet.indexPathForCell(sender as! UITableViewCell) {
+                    destinationVC.titleData = myWalleCharacters[cellSelected.row]
+                    destinationVC.imageData = UIImage(named: arrayOfImages[cellSelected.row])
+                    destinationVC.descriptionData = arrayOfDescriptions[cellSelected.row]
+                }
             }
         }
     }
-
-    
-    
-    
-
 }
+
 
 
 

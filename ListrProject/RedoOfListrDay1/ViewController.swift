@@ -16,11 +16,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var descriptionText: UILabel!
     
+    var titleData:String?
+    var imageData: UIImage?
+    var descriptionData: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        self.titleHeader.text = "New Title"
-        self.descriptionText.text = "This is some text showing that we can update this on the fly"
+        self.titleHeader.text = titleData
+        self.companyLogo.image = imageData
+        self.descriptionText.text = descriptionData
     }
 
     override func didReceiveMemoryWarning() {
