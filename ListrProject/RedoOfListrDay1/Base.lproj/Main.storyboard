@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NPW-By-xjD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="LQI-Fq-op3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
@@ -23,7 +23,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" id="p18-Cg-wg2">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="p18-Cg-wg2" id="VAI-QA-9WT">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -31,6 +31,9 @@
                                             <animations/>
                                         </tableViewCellContentView>
                                         <animations/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="presentation" identifier="presentation" id="8AQ-nH-pYk"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -42,13 +45,14 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="TFy-Xz-GRI"/>
                     <connections>
                         <outlet property="listrTableViewOutlet" destination="VDT-0g-Y6s" id="Ae7-5y-KIe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IWX-VN-AUG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-475" y="509"/>
+            <point key="canvasLocation" x="349" y="337"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -90,6 +94,7 @@
                                 <constraints>
                                     <constraint firstItem="sJW-VH-rsn" firstAttribute="leading" secondItem="Eu4-Ji-XA2" secondAttribute="leading" constant="22" id="Dbo-df-WMy"/>
                                     <constraint firstItem="sJW-VH-rsn" firstAttribute="top" secondItem="Eu4-Ji-XA2" secondAttribute="top" constant="15" id="Iwy-Ok-eiO"/>
+                                    <constraint firstItem="BsP-p9-V62" firstAttribute="top" secondItem="sJW-VH-rsn" secondAttribute="bottom" constant="44.5" id="NDc-rL-Vjr"/>
                                     <constraint firstItem="sJW-VH-rsn" firstAttribute="leading" secondItem="Eu4-Ji-XA2" secondAttribute="leading" constant="22" id="RUU-T7-AqP"/>
                                     <constraint firstAttribute="trailing" secondItem="BsP-p9-V62" secondAttribute="trailing" constant="22" id="VFC-rM-svJ"/>
                                     <constraint firstItem="BsP-p9-V62" firstAttribute="leading" secondItem="Eu4-Ji-XA2" secondAttribute="leading" constant="22" id="VlR-4L-TpO"/>
@@ -98,7 +103,7 @@
                                     <constraint firstAttribute="trailing" secondItem="sJW-VH-rsn" secondAttribute="trailing" constant="22" id="eln-Qb-l15"/>
                                     <constraint firstAttribute="bottom" secondItem="BsP-p9-V62" secondAttribute="bottom" constant="65" id="o43-6J-UHR"/>
                                     <constraint firstAttribute="trailing" secondItem="BsP-p9-V62" secondAttribute="trailing" constant="22" id="otR-VF-Hmy"/>
-                                    <constraint firstAttribute="bottom" secondItem="BsP-p9-V62" secondAttribute="bottom" constant="29" id="qqu-0N-4MJ"/>
+                                    <constraint firstAttribute="bottom" secondItem="BsP-p9-V62" secondAttribute="bottom" priority="750" constant="29" id="qqu-0N-4MJ"/>
                                     <constraint firstAttribute="trailing" secondItem="sJW-VH-rsn" secondAttribute="trailing" constant="22" id="rTM-gW-d51"/>
                                     <constraint firstItem="sJW-VH-rsn" firstAttribute="top" secondItem="Eu4-Ji-XA2" secondAttribute="top" constant="15" id="xDF-tV-H0Q"/>
                                 </constraints>
@@ -185,9 +190,34 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="companyLogo" destination="4dL-c5-OL0" id="vpT-BI-6R4"/>
+                        <outlet property="descriptionText" destination="BsP-p9-V62" id="2pW-Hz-x7S"/>
+                        <outlet property="titleHeader" destination="sJW-VH-rsn" id="LBh-XC-IDM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1086" y="337"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="g7X-HO-LPd">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="LQI-Fq-op3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gi5-Hf-AGx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NPW-By-xjD" kind="relationship" relationship="rootViewController" id="iqd-OA-Qzf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5B-ep-FIO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463" y="337"/>
         </scene>
     </scenes>
     <resources>
